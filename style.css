@@ -539,7 +539,8 @@ section {
     font-size: 0.9rem;
 }
 
-.star-format p {
+.star-format p,
+.star-format li {
     margin-bottom: 0.5rem;
 }
 
