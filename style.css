@@ -169,18 +169,27 @@ input:checked+.slider:before {
 }
 
 .hero-text h1 {
-    font-size: 4.5rem;
-    line-height: 1;
-    margin-bottom: 1.5rem;
+    font-size: 4.2rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
     font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.hero-role {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
 }
 
 .hero-subtitle {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
     max-width: 650px;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 .hero-skills {
