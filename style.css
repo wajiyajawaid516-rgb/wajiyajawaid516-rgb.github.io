@@ -1,17 +1,16 @@
 :root {
-    --primary-color: #0284c7;
-    /* Professional Ocean Blue */
+    --primary-color: #1e3a8a;
+    /* Deep Navy Blue */
     --secondary-color: #475569;
     --bg-light: #f8fafc;
-    /* Ghost White */
     --bg-dark: #0f172a;
     --text-light: #0f172a;
     --text-dark: #f8fafc;
-    --accent-color: #38bdf8;
-    /* Light Azure */
+    --accent-color: #3b82f6;
+    /* Soft Blue */
     --header-height: 80px;
     --success-color: #059669;
-    --indigo-glow: rgba(2, 132, 199, 0.1);
+    --indigo-glow: rgba(30, 58, 138, 0.1);
 }
 
 [data-theme="dark"] {
@@ -202,7 +201,7 @@ input:checked+.slider:before {
 
 .hero-text .highlight {
     color: var(--primary-color);
-    background: linear-gradient(120deg, #0284c7 0%, #38bdf8 100%);
+    background: linear-gradient(120deg, #1e3a8a 0%, #3b82f6 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
