@@ -1,17 +1,17 @@
 :root {
-    --primary-color: #7c3aed;
-    /* Electric Violet */
-    --secondary-color: #64748b;
+    --primary-color: #0284c7;
+    /* Professional Ocean Blue */
+    --secondary-color: #475569;
     --bg-light: #f8fafc;
     /* Ghost White */
     --bg-dark: #0f172a;
-    --text-light: #1e293b;
-    --text-dark: #f1f5f9;
-    --accent-color: #06b6d4;
-    /* Glowing Cyan */
+    --text-light: #0f172a;
+    --text-dark: #f8fafc;
+    --accent-color: #38bdf8;
+    /* Light Azure */
     --header-height: 80px;
-    --success-color: #10b981;
-    --indigo-glow: rgba(124, 58, 237, 0.1);
+    --success-color: #059669;
+    --indigo-glow: rgba(2, 132, 199, 0.1);
 }
 
 [data-theme="dark"] {
@@ -202,7 +202,7 @@ input:checked+.slider:before {
 
 .hero-text .highlight {
     color: var(--primary-color);
-    background: linear-gradient(120deg, #007bff 0%, #00d2ff 100%);
+    background: linear-gradient(120deg, #0284c7 0%, #38bdf8 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -543,20 +543,25 @@ section {
     text-transform: uppercase;
 }
 
-.star-format {
+.project-bullets {
     margin: 1.5rem 0;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    padding-left: 1.2rem;
+    list-style-type: none;
 }
 
-.star-format p,
-.star-format li {
-    margin-bottom: 0.5rem;
+.project-bullets li {
+    margin-bottom: 0.8rem;
+    position: relative;
 }
 
-.star-format strong {
+.project-bullets li::before {
+    content: "\25A0";
     color: var(--primary-color);
-    width: 25px;
-    display: inline-block;
+    position: absolute;
+    left: -1.2rem;
+    font-size: 0.6rem;
+    top: 6px;
 }
 
 .observation {
